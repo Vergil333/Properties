@@ -23,7 +23,7 @@ public class PropertiesApplication {
     }
 
     @PostConstruct
-    public void init() {
+    private void init() {
         this.fbProperties = facebookProperties;
     }
 
