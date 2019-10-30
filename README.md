@@ -1,3 +1,5 @@
+Spring boot 2 / Spring 5 supports [very easy configuration](https://www.baeldung.com/configuration-properties-in-spring-boot) of properties from file to configuration class.
+
 I found it to be little cumbersome to import properties into static. 
 
 This minimalistic demo shows how to do it both in main method and also in tests.
