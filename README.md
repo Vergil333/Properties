@@ -6,7 +6,7 @@ This minimalistic demo shows how to do it both in main method and also in tests.
 
 ### Structure:
 
-#####App
+###### App
 Properties:  
 [application.properties](https://github.com/Vergil333/Properties/blob/master/src/main/resources/application.properties)
 
@@ -16,7 +16,7 @@ Properties configuration:
 Main Class:
 [PropertiesApplication](https://github.com/Vergil333/Properties/blob/master/src/main/java/com/martinmachava/properties/PropertiesApplication.java)
 
-#####Tests
+###### Tests
 Test Class:
 [FacebookPropertiesTests](https://github.com/Vergil333/Properties/blob/master/src/test/java/com/martinmachava/properties/PropertiesApplicationTests.java)
 
