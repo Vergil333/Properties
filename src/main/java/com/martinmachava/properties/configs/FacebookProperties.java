@@ -19,9 +19,7 @@ public class FacebookProperties {
     private String host;
     private String apiVersion;
     private String appAccessToken;
-    private String invalidToken;
-    private String validToken;
-    private Long validUser;
-    private Long invalidUser;
+    private String userToken;
+    private Long user;
 
 }
