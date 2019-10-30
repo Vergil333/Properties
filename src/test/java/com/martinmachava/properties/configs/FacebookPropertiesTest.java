@@ -39,12 +39,12 @@ public class FacebookPropertiesTest {
 
     @Test
     public void testPropsNotNull() {
-        ArrayList<String> getters = fbGettersResults(fbProperties);
+        ArrayList<String> getters = facebookPropertiesGettersResultList(fbProperties);
 
         getters.forEach(getter -> Assert.assertNotNull(getter));
     }
 
-    private ArrayList<String> fbGettersResults(FacebookProperties testModelObject) {
+    private ArrayList<String> facebookPropertiesGettersResultList(FacebookProperties testModelObject) {
 
         ArrayList<String> getterResults = new ArrayList<>();
 
